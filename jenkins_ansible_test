@@ -1,4 +1,4 @@
-node{
+node(Ansible_Server_node){
    stage('SCM Checkout'){
      git 'https://github.com/smuvw77/my-app'
    }
