@@ -10,6 +10,7 @@ node('Ansible_Server_node'){
   
   ansible -version
       
+   '''
    }
   
  }
