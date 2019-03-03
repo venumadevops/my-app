@@ -6,7 +6,9 @@ node('Ansible_Server_node'){
    }
    stage('Ansible'){
     
-  sh ansible -version
+  sh ''' 
+  
+  ansible -version
       
    }
   
