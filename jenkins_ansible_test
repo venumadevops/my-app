@@ -8,7 +8,7 @@ node('Ansible_Server_node'){
     
   sh ''' 
   
-  ansible -version
+  ansible --version
       
    '''
    }
