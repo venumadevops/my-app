@@ -9,7 +9,7 @@ node('Ansible_Server_node'){
   sh ''' 
   
   ansible --version
-  ansible all –m ping
+  #ansible all –m ping
       
    '''
    }
