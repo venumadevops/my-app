@@ -9,7 +9,7 @@ node('Ansible_Server_node'){
   sh ''' 
   
   ansible --version
-  Ansible-playbook filecreation.yml
+  ansible-playbook filecreation.yml
       
    '''
    }
